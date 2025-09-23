@@ -1,68 +1,196 @@
-header {
-    width: 1440px;
-    height: 72px;
-}
-
-a {
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.333;
-    letter-spacing: 4px;
-    text-decoration: underline;
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+  --font-family: 'Roboto', sans-serif;
+  --second-family: 'Raleway', sans-serif;
+  --text-size: 16px;
+  --line-height: 1.5;
+  --letter-spacing: 0.02em;
 }
 
 body {
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2px;
-    color: #434455;
-    background-color: #FCFCFC;
-
+  font-family: var(--font-family);
+  font-size: var(--text-size);
+  background-color: var(--white);
+  color: var(--slate);
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+}
+/* RESET */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 56px;
-    letter-spacing: 2px;
-    line-height: 60px;
-    color: #FFFFFF;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-h2 {
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 2px;
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-h3 {
-    font-family: "Roboto";
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 2px;
+button {
+  cursor: pointer;
 }
 
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+/* /RESET */
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+.h3-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+/* HEADER SECTION */
+.wb_link {
+  font-weight: 700;
+  font-size: 18px;
+
+  /* line-height: 21px; */
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue);
+  font-family: var(--second-family);
+}
+
+.wb_blue {
+  color: var(--iris);
+}
+
+.navigation {
+  font-weight: 500;
+  color: var(--navy-blue);
+}
+
+address {
+  color: var(--slate);
+}
+
+/* HERO SECTION */
 .hero {
-    background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
+  background-color: var(--navy-blue);
 }
 
-.ws_link {
-    font-family: "Raleway";
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 3px;
-    color: #FFFFFF;
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  /* line-height: 60px; */
+  line-height: 1.07143;
+  text-align: center;
+  color: var(--white);
 }
 
-.ws_link .ws_blue {
-    color: #4D5AE5;
+.hero-btn {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  background-color: var(--iris);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--white);
 }
 
+/* FEATURES SECTION */
 
+.features-text {
+  color: var(--slate);
+}
+
+/* TEAM SECTION */
+.team {
+  background-color: var(--cloud);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+.team-item {
+  background: var(--white);
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px;
+  width: 264px;
+  height: 380px;
+}
+
+.team-item-title {
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 24px; */
+  line-height: 1.2;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+.team-item-text {
+  text-align: center;
+}
+
+/* PROTFOLIO SECTION */
+
+.portfolio-item {
+  border-bottom: 1px solid var(--cornflower);
+  border-left: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
+  padding: 32px 16px;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  background: var(--navy-blue);
+  color: var(--cloud);
+}
+
+.wb_link_footer {
+  font-weight: 700;
+  font-size: 18px;
+  /* line-height: 21px; */
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-family: var(--second-family);
+  color: var(--cloud);
+}
