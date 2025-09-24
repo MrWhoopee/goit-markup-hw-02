@@ -35,7 +35,7 @@ h5,
 h6,
 p {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
 }
 
 img {
@@ -47,7 +47,7 @@ img {
 .list {
   list-style: none;
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
 }
 
 button {
@@ -58,14 +58,23 @@ button {
   text-decoration: none;
   color: inherit;
 }
-/* /RESET */
+
+.head-link:hover,
+.head-link:focus,
+.adress-link:hover,
+.adress-link:focus,
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--ocean);
+}
 
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   text-align: center;
   color: var(--navy-blue);
+  letter-spacing: 0.02em;
 }
 
 .h3-title {
@@ -80,17 +89,16 @@ button {
 .wb_link {
   font-weight: 700;
   font-size: 18px;
-
   /* line-height: 21px; */
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue);
+  color: var(--iris);
   font-family: var(--second-family);
 }
 
 .wb_blue {
-  color: var(--iris);
+  color: var(--navy-blue);
 }
 
 .navigation {
@@ -102,6 +110,10 @@ address {
   color: var(--slate);
 }
 
+.head-adress {
+  font-style: normal;
+}
+
 /* HERO SECTION */
 .hero {
   background-color: var(--navy-blue);
@@ -111,19 +123,21 @@ address {
   font-weight: 700;
   font-size: 56px;
   /* line-height: 60px; */
-  line-height: 1.07143;
+  line-height: 1.07;
   text-align: center;
   color: var(--white);
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
   border-radius: 4px;
-  padding: 16px 32px;
+  /* padding: 16px 32px;
   width: 169px;
-  height: 56px;
+  height: 56px; */
   background-color: var(--iris);
   font-weight: 500;
   letter-spacing: 0.04em;
+  line-height: 1.5;
   color: var(--white);
 }
 
@@ -141,22 +155,29 @@ address {
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   text-align: center;
   color: var(--navy-blue);
+  letter-spacing: 0.02;
+  text-transform: capitalize;
 }
+
+/* .team-title {
+  text-transform: capitalize;
+} */
 
 .team-item {
   background: var(--white);
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px;
+  /* padding: 0px 0px 32px;
   width: 264px;
-  height: 380px;
+  height: 380px; */
 }
 
 .team-item-title {
   font-weight: 500;
   font-size: 20px;
+  letter-spacing: 0.02em;
 
   /* line-height: 24px; */
   line-height: 1.2;
@@ -174,23 +195,16 @@ address {
   border-bottom: 1px solid var(--cornflower);
   border-left: 1px solid var(--cornflower);
   border-right: 1px solid var(--cornflower);
-  padding: 32px 16px;
+  /* padding: 32px 16px; */
 }
 
 /* FOOTER SECTION */
 
-footer {
+.footer {
   background: var(--navy-blue);
   color: var(--cloud);
 }
 
-.wb_link_footer {
-  font-weight: 700;
-  font-size: 18px;
-  /* line-height: 21px; */
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  font-family: var(--second-family);
+.wb_blue_footer {
   color: var(--cloud);
 }
