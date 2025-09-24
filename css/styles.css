@@ -70,7 +70,7 @@ button {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
+  /* text-align: center; */
   color: var(--navy-blue);
   letter-spacing: 0.02em;
 }
@@ -122,7 +122,7 @@ address {
   font-size: 56px;
   /* line-height: 60px; */
   line-height: 1.07;
-  text-align: center;
+  /* text-align: center; */
   color: var(--white);
   letter-spacing: 0.02em;
 }
@@ -159,7 +159,7 @@ address {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
+  /* text-align: center; */
   color: var(--navy-blue);
   letter-spacing: 0.02;
   text-transform: capitalize;
@@ -184,13 +184,13 @@ address {
 
   /* line-height: 24px; */
   line-height: 1.2;
-  text-align: center;
+  /* text-align: center; */
   color: var(--navy-blue);
 }
 
-.team-item-text {
+/* .team-item-text {
   text-align: center;
-}
+} */
 
 /* PROTFOLIO SECTION */
 
