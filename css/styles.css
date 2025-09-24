@@ -27,27 +27,9 @@ body {
   letter-spacing: var(--letter-spacing);
 }
 /* RESET */
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
-} */
-
-/* img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-} */
 
 .list {
   list-style: none;
-  /* margin: 0; */
-  /* padding: 0; */
 }
 
 button {
@@ -88,7 +70,6 @@ button {
 .wb_link {
   font-weight: 700;
   font-size: 18px;
-  /* line-height: 21px; */
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -121,7 +102,6 @@ address {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  /* line-height: 60px; */
   line-height: 1.07;
   text-align: center;
   color: var(--white);
@@ -129,10 +109,6 @@ address {
 }
 
 .hero-btn {
-  /* border-radius: 4px; */
-  /* padding: 16px 32px;
-  width: 169px;
-  height: 56px; */
   background-color: var(--iris);
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -156,16 +132,8 @@ address {
   background-color: var(--cloud);
 }
 
-/* .team-title {
-  text-transform: capitalize;
-} */
-
 .team-item {
   background: var(--white);
-  /* border-radius: 0 0 4px 4px; */
-  /* padding: 0px 0px 32px;
-  width: 264px;
-  height: 380px; */
 }
 
 .team-item-title {
@@ -173,22 +141,10 @@ address {
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
-  /* text-align: center; */
   color: var(--navy-blue);
 }
 
-/* .team-item-text {
-  text-align: center;
-} */
-
 /* PROTFOLIO SECTION */
-
-/* .portfolio-item {
-  border-bottom: 1px solid var(--cornflower);
-  border-left: 1px solid var(--cornflower);
-  border-right: 1px solid var(--cornflower);
-  padding: 32px 16px;
-} */
 
 /* FOOTER SECTION */
 
